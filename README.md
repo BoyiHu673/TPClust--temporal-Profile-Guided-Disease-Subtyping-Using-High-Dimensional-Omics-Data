@@ -1,6 +1,6 @@
 # TPClust--temporal-Profile-Guided-Disease-Subtyping-Using-High-Dimensional-Omics-Data
 ## This markdown file contains R code for the manuscript entitled "TPClust: Temporal Profile-Guided Subtyping Using High-Dimensional Omics Data"
-## Since in our implementation, the solver MOSEK is utilized to solve optimization problem involving LASSO and group LASSO, an installation of MOSEK solver into R is required
+## Our implementation uses the MOSEK solver for optimization problems with LASSO and group LASSO penalties. Therefore, MOSEK and its R interface must be installed prior to using this package, therefore the installation of MOSEK solver in R is required.
 
 1. Download the correct version of MOSEK based on your machine from the official website (https://www.mosek.com/downloads/)
 
