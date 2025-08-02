@@ -4,6 +4,6 @@
 
 1. Download the correct version of MOSEK based on your machine from the official website (https://www.mosek.com/downloads/)
 
-2. Set up a license following the instructions from https://docs.mosek.com/11.0/licensing/index.html
+2. Set up a license following the instructions (https://docs.mosek.com/11.0/licensing/index.html). For academic faculty, students or staff, Academic Licenses for MOSEK can be request from https://www.mosek.com/products/academic-licenses/
 
-3. For academic faculty, students or staff, Academic Licenses for MOSEK can be request from here: https://www.mosek.com/products/academic-licenses/
+3. Follow installation instructions (https://docs.mosek.com/11.0/rmosek/install-interface.html) to install MOSEK in R.
