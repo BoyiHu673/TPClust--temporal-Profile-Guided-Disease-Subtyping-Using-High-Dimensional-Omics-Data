@@ -10,7 +10,7 @@
 ---------------------------------------------------------------
 ## This repository contains the R code used to excute TPClust method and one illustration of fitting TPClust method on a toy example. The descriptions of R files in this repository are given below
 ---------------------------------------------------------------
-- TPClust_EM: The R code that perfomrs the EM algorithm used to fit TPClust framework
+- TPClust_EM.R: The R code that perfomrs the EM algorithm used to fit TPClust framework
 - data_processing.R: The R code used to transfer the input data into the right format for TPClust
 - data_vec.R: The R code used to vectorize and prepare the data
 - H1_sparse.R: Fit the weighted multinomial logistic regression with Lasso and group Lasso penaltie corresponding to omics data within the EM algorithm
