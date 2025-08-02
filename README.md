@@ -1,14 +1,12 @@
 # TPClust--temporal-Profile-Guided-Disease-Subtyping-Using-High-Dimensional-Omics-Data
-## This markdown file contains R code for the manuscript entitled "TPClust: Temporal Profile-Guided Subtyping Using High-Dimensional Omics Data"
-
-## Our implementation uses the MOSEK solver for optimization problems with LASSO and group LASSO penalties. Therefore, the installation of MOSEK solver in R is required.
+## This repository contains R code for the manuscript entitled "TPClust: Temporal Profile-Guided Subtyping Using High-Dimensional Omics Data". Our implementation uses the MOSEK solver for optimization problems with LASSO and group LASSO penalties. Therefore, the installation of MOSEK solver in R is required.
 ---------------------------------------------------------------
 1. Download the correct version of MOSEK based on your machine from the official website (https://www.mosek.com/downloads/)
 2. Set up a license following the instructions (https://docs.mosek.com/11.0/licensing/index.html). For academic faculty, students or staff, Academic Licenses for MOSEK can be request from https://www.mosek.com/products/academic-licenses/
 3. Follow installation instructions (https://docs.mosek.com/11.0/rmosek/install-interface.html) to install MOSEK in R.
 
 ---------------------------------------------------------------
-## This repository contains the R code used to excute TPClust method and one illustration of fitting TPClust method on a toy example. The descriptions of R files in this repository are given below
+## The R scripts in this repository perform the TPClust method, with an illustration of fitting the TPClust method on a toy example. Descriptions of each R file in this repository are provided below.
 ---------------------------------------------------------------
 - **TPClust_EM.R**: This is the main script that implements the EM algorithm for fitting the TPClust framework.
 - **data_processing.R**: This script handles the data preprocessing and transforms the input data into the proper format for TPClust.
